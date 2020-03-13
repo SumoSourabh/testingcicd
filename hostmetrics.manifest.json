@@ -7,7 +7,7 @@
     "description": "The Sumo Logic App for AWS EC2 Metrics allows you to collect your EC2 instance metrics and display them using predefined search queries and Dashboards. The App provides Dashboards to display analysis of EC2 instance metrics for cpu, disk, memory, network.",
     "helpURL": "https://help.sumologic.com/07Sumo-Logic-Apps/14Hosts_and_Operating_Systems/Host_Metrics",
     "hoverText": null,
-    "iconURL": "https://s3.amazonaws.com/app_icons/SumoLogic.png",
+    "iconURL": "https://sumologic-partner-appsdata.s3.amazonaws.com/icons/Host_Metrics/HostMetrics.png",
     "installationInstructions": null,
     "manifestVersion": "0.1",
     "name": "Host_Metrics",
@@ -24,6 +24,14 @@
     "preview": false,
     "requirements": [],
     "requiresInstallationInstructions": false,
-    "screenshotURLs": [],
+    "screenshotURLs": [
+        "https://sumologic-partner-appsdata.s3.amazonaws.com/dashboards/Host_Metrics/Memory.png",
+        "https://sumologic-partner-appsdata.s3.amazonaws.com/dashboards/Host_Metrics/Network.png",
+        "https://sumologic-partner-appsdata.s3.amazonaws.com/dashboards/Host_Metrics/Overview.png",
+        "https://sumologic-partner-appsdata.s3.amazonaws.com/dashboards/Host_Metrics/CPU.png",
+        "https://sumologic-partner-appsdata.s3.amazonaws.com/dashboards/Host_Metrics/TCP.png",
+        "https://sumologic-partner-appsdata.s3.amazonaws.com/dashboards/Host_Metrics/Disk.png"
+    ],
+    "uuid": "da89e1dc-bac0-4a6f-bb68-6772ca9a68d9",
     "version": "1.0"
 }
