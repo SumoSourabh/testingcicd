@@ -1,0 +1,29 @@
+{
+    "author": "Sourabh Inc.",
+    "categories": [
+        "Compliance and Security"
+    ],
+    "communityURL": "https://support.sumologic.com/hc/en-us/community/topics/200263058-Applications-and-Integrations",
+    "description": "The Sumo Logic App for AWS EC2 Metrics allows you to collect your EC2 instance metrics and display them using predefined search queries and Dashboards. The App provides Dashboards to display analysis of EC2 instance metrics for cpu, disk, memory, network.",
+    "helpURL": "https://help.sumologic.com/07Sumo-Logic-Apps/14Hosts_and_Operating_Systems/Host_Metrics",
+    "hoverText": null,
+    "iconURL": "https://s3.amazonaws.com/app_icons/SumoLogic.png",
+    "installationInstructions": null,
+    "manifestVersion": "0.1",
+    "name": "Host_Metrics",
+    "parameters": [
+        {
+            "dataSourceType": "METRICS",
+            "description": "METRICS data source",
+            "example": null,
+            "label": "METRICS data source",
+            "parameterId": "metricsrc",
+            "parameterType": "DATA_SOURCE"
+        }
+    ],
+    "preview": false,
+    "requirements": [],
+    "requiresInstallationInstructions": false,
+    "screenshotURLs": [],
+    "version": "1.0"
+}
