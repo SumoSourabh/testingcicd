@@ -9,7 +9,7 @@
     "description": "Jenkins is an open source automation server for automating tasks related to building, testing, and delivering software. The Sumo Logic App for Jenkins helps you monitor build successes, failures, and performance. The preconfigured dashboards provide insight into current current and recent build activity.",
     "helpURL": "https://help.sumologic.com/07Sumo-Logic-Apps/08App_Development/Jenkins/Collect_Logs_and_Metrics_for_Jenkins_Classic",
     "hoverText": null,
-    "iconURL": "https://s3.amazonaws.com/app_icons/SumoLogic.png",
+    "iconURL": "https://sumologic-partner-appsdata.s3.amazonaws.com/icons/JenkinsClassic/jenkinsclassic.png",
     "installationInstructions": null,
     "manifestVersion": "0.1",
     "name": "Jenkins Classic",
@@ -26,6 +26,10 @@
     "preview": false,
     "requirements": [],
     "requiresInstallationInstructions": false,
-    "screenshotURLs": [],
+    "screenshotURLs": [
+        "https://sumologic-partner-appsdata.s3.amazonaws.com/dashboards/JenkinsClassic/CPU.png",
+        "https://sumologic-partner-appsdata.s3.amazonaws.com/dashboards/JenkinsClassic/Disk.png"
+    ],
+    "uuid": "da89e1dc-bac0-4a6f-bb68-6772ca9a68d9",
     "version": "1.0"
 }
