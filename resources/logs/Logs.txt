@@ -1,0 +1,40 @@
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_User  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_Sys  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_Nice  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_Idle  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_IOWait  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_Irq  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_SoftIrq  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_Stolen  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_LoadAvg_1min  CPU_LOAD TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_LoadAvg_5min  CPU_LOAD TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=CPU_LoadAvg_15min  CPU_LOAD TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Mem_Total  2088431616 TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Mem_Free  MEMORY_FREE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Mem_Used  MEMORY_USED TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Mem_ActualFree  MEMORY_FREE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Mem_ActualUsed  MEMORY_USED TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Mem_UsedPercent  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Mem_FreePercent  CPU_PERCENTAGE_USAGE TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Mem_PhysicalRam  2088431616 TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=TCP_InboundTotal  TCP_COUNT TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=TCP_OutboundTotal  TCP_COUNT TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=TCP_Established  TCP_COUNT TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=TCP_Listen  TCP_COUNT TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=TCP_Idle  TCP_COUNT TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=TCP_Closing  TCP_COUNT TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=TCP_CloseWait  TCP_COUNT TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=TCP_Close  TCP_COUNT TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=TCP_TimeWait  TCP_COUNT TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Net_InPackets  NETWORK_PACKETS TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Net_OutPackets  NETWORK_PACKETS TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Net_InBytes  NETWORK_BYTES TIMESTAMP
+account=METRIC_ACCOUNT Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Net_OutBytes  NETWORK_BYTES TIMESTAMP
+account=METRIC_ACCOUNT DevName=DEV_NAME DirName=DIR_NAME Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Disk_Reads  DISK_OPERATIONS TIMESTAMP
+account=METRIC_ACCOUNT DevName=DEV_NAME DirName=DIR_NAME Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Disk_Writes  DISK_OPERATIONS TIMESTAMP
+account=METRIC_ACCOUNT DevName=DEV_NAME DirName=DIR_NAME Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Disk_Queue  DISK_OPERATIONS TIMESTAMP
+account=METRIC_ACCOUNT DevName=DEV_NAME DirName=DIR_NAME Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Disk_ReadBytes  MEMORY_FREE TIMESTAMP
+account=METRIC_ACCOUNT DevName=DEV_NAME DirName=DIR_NAME Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Disk_WriteBytes  MEMORY_FREE TIMESTAMP
+account=METRIC_ACCOUNT DevName=DEV_NAME DirName=DIR_NAME Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Disk_Used  MEMORY_USED TIMESTAMP
+account=METRIC_ACCOUNT DevName=DEV_NAME DirName=DIR_NAME Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Disk_Available  MEMORY_FREE TIMESTAMP
+account=METRIC_ACCOUNT DevName=DEV_NAME DirName=DIR_NAME Namespace=AWS/EC2 InstanceId=INSTANCE_ID InstanceType=INSTANCE_TYPE Region=us-east-1 metric=Disk_UsedPercent  CPU_PERCENTAGE_USAGE TIMESTAMP

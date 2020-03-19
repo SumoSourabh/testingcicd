@@ -1,0 +1,31 @@
+{
+    "author": "Sourabh Ltd.",
+    "categories": [
+        "Compliance and Security",
+        "DevOps",
+        "IT Infrastructure"
+    ],
+    "communityURL": "https://support.sumologic.com/hc/en-us/community/topics/200263058-Applications-and-Integrations",
+    "description": "Jenkins is an open source automation server for automating tasks related to building, testing, and delivering software. The Sumo Logic App for Jenkins helps you monitor build successes, failures, and performance. The preconfigured dashboards provide insight into current current and recent build activity.",
+    "helpURL": "https://help.sumologic.com/07Sumo-Logic-Apps/08App_Development/Jenkins/Collect_Logs_and_Metrics_for_Jenkins_Classic",
+    "hoverText": null,
+    "iconURL": "https://s3.amazonaws.com/app_icons/SumoLogic.png",
+    "installationInstructions": null,
+    "manifestVersion": "0.1",
+    "name": "Jenkins Classic",
+    "parameters": [
+        {
+            "dataSourceType": "LOG",
+            "description": "LOG data source",
+            "example": null,
+            "label": "LOG data source",
+            "parameterId": "logsrc",
+            "parameterType": "DATA_SOURCE"
+        }
+    ],
+    "preview": false,
+    "requirements": [],
+    "requiresInstallationInstructions": false,
+    "screenshotURLs": [],
+    "version": "1.0"
+}
